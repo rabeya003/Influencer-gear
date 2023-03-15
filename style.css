@@ -1,0 +1,121 @@
+/* --google fonts---- */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+  body{
+    font-family: 'Poppins', sans-serif;
+    /* margin-left: 90px;
+    margin-right: 90px; */
+    width: 70%;
+    margin: auto;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900px;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+ 
+}
+.nav-f{
+  margin-top: 40px;
+  font-size: 30px;
+}
+.nav-s{
+  margin-top: 50px;
+  font-size: 20px;
+}
+.camara{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.camara-info{
+  width: 60%;
+  padding: 30px;
+}
+.camara-img{
+  width: 40%;
+  margin-left:50px;  
+}
+button{
+  background-color: rgb(218, 29, 96);
+  color: white;
+  border-radius: 25px;
+  border:none;
+  padding: 0px 25px 0px 25px;
+}
+hr{
+    border: none;
+    /* border-top: 3px double #333; */
+    background-image: linear-gradient(to right, rgb(250, 248, 248) , rgb(87, 87, 87), rgb(242, 239, 239));
+    /* color: #333; */
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+.logo{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+/* ---Popular Collection--- */
+.title{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.product{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.product-one {
+  width: 300px;
+  height: 400x;
+  padding: 50px;
+  margin-bottom: 30px;
+  background-color: antiquewhite;
+}
+.product-img{
+  width: 100%;
+}
+.icon{
+  color: orange;
+}
+.see{
+  color: rgb(226, 52, 107);
+  text-align: end;
+  padding: 0px 50px 20px 50px;
+}
+/* New section */
+.new{
+  display: flex;
+  column-gap: 70px;
+}
+.img{
+  width: 30%;
+}
+.info{
+  width: 70%;
+}
+.button{
+  background-image: linear-gradient(rgb(220, 11, 84),rgb(220, 11, 84),rgb(220, 11, 84));
+  width: 100px;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-left: 0px;
+  text-align: center;
+  color: white;
+}
+.icon-footer{
+  color: white;
+}
+.footer{
+  text-align: center;
+  color: white;
+  background-color: rgb(13, 12, 63);
+}
