@@ -44,7 +44,7 @@ button{
   color: white;
   border-radius: 25px;
   border:none;
-  padding: 0px 25px 0px 25px;
+  padding: 10px 25px 10px 25px;
 }
 hr{
     border: none;
@@ -100,7 +100,7 @@ hr{
 .info{
   width: 70%;
 }
-.button{
+/* .button{
   background-image: linear-gradient(rgb(220, 11, 84),rgb(220, 11, 84),rgb(220, 11, 84));
   width: 100px;
   height: 50px;
@@ -110,7 +110,7 @@ hr{
   margin-left: 0px;
   text-align: center;
   color: white;
-}
+} */
 .icon-footer{
   color: white;
 }
@@ -118,4 +118,47 @@ hr{
   text-align: center;
   color: white;
   background-color: rgb(13, 12, 63);
+}
+@media screen and (max-width:700px){
+  .camara{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .camara-info{
+    width: 100%;
+  }
+  .camara-img {
+    width: 80%;
+    margin-left: 0px;
+}
+.logo{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.product{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+.new{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  column-gap: 70px;
+}
+.footer{
+  text-align: center;
+  color: white;
+  font-size: 5px;
+  background-color: rgb(13, 12, 63);
+}
+
+
+  
 }
